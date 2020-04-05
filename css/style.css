@@ -28,7 +28,7 @@ Section headings
  */
 
 h1, h2, h3, h4, h5, h6, h7 {
-  font-family: serif;
+  font-family: sans-serif;
   font-weight: normal;
  }
 
@@ -50,7 +50,7 @@ nav a:hover {
  }
 
 nav h1 {
-  font-family: serif;
+  font-family: sans-serif;
   margin: 0 0 0.5em 0;
 } 
 
@@ -60,14 +60,12 @@ General content elements and styles
 */
 
 ul, ol {
-  color: #b91e27;
-  font-weight: bold;
-  font-family: serif;
-  font-size: 1.2em;
+  font-weight: normal;
+  font-family: sans-serif;
  }
 
 ul {
-  list-style: square outside;
+  list-style: disc;
  }
 
 ol span {
@@ -183,18 +181,19 @@ Navigation
 
 nav {
   margin: 1em 10% 1em 10%;
-  padding: 1em 0 0 0;
+  padding: 1em 0 0.3em 0;
   width: 22em;
   border: solid thin rgb(240,240,240);
  }
 
 nav ul {
   margin: 0;
-  list-style: square outside;
+  list-style: disc;
  }
 
 nav a {
-  font-family: serif;
+  font-family: sans-serif;
+  font-weight: bold;
  }
 
 nav a:hover {
@@ -283,12 +282,12 @@ Navigation
 /* Nav bar */
 
 nav {
-  padding: 0 0 3.5em 0;
+  padding: 0 0 7em 0;
   margin: 0 0 0 0;
  }
 
 nav h1 {
-  display: none;*//* (display off-page?) */
+  display: none;/* (display off-page?) */
  }
 
 nav ul {
